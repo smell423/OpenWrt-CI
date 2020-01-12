@@ -54,7 +54,7 @@ jobs:
           df -h
           
 
-      - name: koolproxyR
+      - name:自定义插件
         run: |
           cd package
           mkdir openwrt-packages
@@ -173,8 +173,14 @@ jobs:
           CONFIG_PACKAGE_luci-app-wireguard=y
           CONFIG_PACKAGE_luci-app-wrtbwmon=y
           CONFIG_PACKAGE_luci-app-syncdial=y
+          CONFIG_PACKAGE_luci-app-mwan3=y
+          CONFIG_PACKAGE_luci-app-mwan=y
           CONFIG_PACKAGE_luci-app-dnscrypt-proxy=y
           CONFIG_PACKAGE_luci-app-koolproxyR=y
+          CONFIG_PACKAGE_luci-theme-atmaterial=y
+          CONFIG_PACKAGE_luci-theme-rosy=y
+          
+
           EOF
 
           # LuCI主题:
