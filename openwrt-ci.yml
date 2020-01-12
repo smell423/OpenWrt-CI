@@ -179,8 +179,6 @@ jobs:
           CONFIG_PACKAGE_luci-app-koolproxyR=y
           CONFIG_PACKAGE_luci-theme-atmaterial=y
           CONFIG_PACKAGE_luci-theme-rosy=y
-          
-
           EOF
 
           # LuCI主题:
