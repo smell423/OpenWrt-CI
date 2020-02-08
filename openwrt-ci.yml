@@ -7,7 +7,7 @@
 # <https://github.com/KFERMercer/OpenWrt-CI>
 #
 
-name: 3965U_1.1
+name: 3965U_1.2
 
 on:
   push:
