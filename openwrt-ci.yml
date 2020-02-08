@@ -54,7 +54,7 @@ jobs:
           df -h
           
 
-      - name:主题
+      - name: 主题
         run: |
           cd package
           mkdir openwrt-packages
