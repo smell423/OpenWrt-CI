@@ -7,14 +7,14 @@
 # <https://github.com/KFERMercer/OpenWrt-CI>
 #
 
-name: 3965U
+name: 3965U_1.1
 
 on:
   push:
     branches: 
       - master
   schedule:
-    - cron: 0 20 * * 5
+    - cron: 0 20 * * *
   release:
     types: [published]
 
